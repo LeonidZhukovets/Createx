@@ -9,7 +9,7 @@
   align-items: center;
   padding-left: 60px;
   padding-right: 225px;
-  gap: 40px;
+  gap: 38px;
 }
 
 .navbar__menu-link {
@@ -17,16 +17,40 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 160%;
+  color: var(--gray800);
 }
-.logo {
+.navbar__logo {
   width: 130px;
   height: 22px;
 }
+.logo {
+  width: 100%;
+  height: 100%;
+}
 .navbar__cta {
   display: flex;
+  align-items: center;
   gap: 36px;
+}
+
+.navbar__account {
+  display: flex;
+  width: 144px;
+  height: 22px;
 }
 .navbar__login-icon {
   width: 18px;
   height: 18px;
+  margin: 2px 0;
+}
+.navbar__login-icon a {
+  width: 100%;
+  height: 100%;
+}
+.navbar__login-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--gray800);
 }

@@ -1,3 +1,45 @@
 .header {
+  padding-top: 20px;
   background: url("../assets/img/header_background.jpg") center/cover no-repeat;
+}
+
+.header__main {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  width: 496px;
+  height: 250px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 130%;
+  color: var(--gray900);
+}
+
+.header__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stats__number {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: var(--gray900);
+}
+
+.stats__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--gray900);
 }
